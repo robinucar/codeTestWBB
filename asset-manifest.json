@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/codeTestWBB/static/css/main.2935374e.chunk.css",
+    "main.js": "/codeTestWBB/static/js/main.319ddcea.chunk.js",
+    "main.js.map": "/codeTestWBB/static/js/main.319ddcea.chunk.js.map",
+    "runtime-main.js": "/codeTestWBB/static/js/runtime-main.a69aea57.js",
+    "runtime-main.js.map": "/codeTestWBB/static/js/runtime-main.a69aea57.js.map",
+    "static/js/2.0de8f5fb.chunk.js": "/codeTestWBB/static/js/2.0de8f5fb.chunk.js",
+    "static/js/2.0de8f5fb.chunk.js.map": "/codeTestWBB/static/js/2.0de8f5fb.chunk.js.map",
+    "static/js/3.7506c56b.chunk.js": "/codeTestWBB/static/js/3.7506c56b.chunk.js",
+    "static/js/3.7506c56b.chunk.js.map": "/codeTestWBB/static/js/3.7506c56b.chunk.js.map",
+    "index.html": "/codeTestWBB/index.html",
+    "static/css/main.2935374e.chunk.css.map": "/codeTestWBB/static/css/main.2935374e.chunk.css.map",
+    "static/js/2.0de8f5fb.chunk.js.LICENSE.txt": "/codeTestWBB/static/js/2.0de8f5fb.chunk.js.LICENSE.txt",
+    "static/media/CardiffCity.b6a9d010.png": "/codeTestWBB/static/media/CardiffCity.b6a9d010.png",
+    "static/media/SwanseaCity.8671e3e9.png": "/codeTestWBB/static/media/SwanseaCity.8671e3e9.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.a69aea57.js",
+    "static/js/2.0de8f5fb.chunk.js",
+    "static/css/main.2935374e.chunk.css",
+    "static/js/main.319ddcea.chunk.js"
+  ]
+}
