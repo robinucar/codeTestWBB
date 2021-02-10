@@ -1,5 +1,5 @@
 import Players from './Players';
-import cardif from '../images/CardiffCity.png';
+import cardiff from '../images/CardiffCity.png';
 import swansea from '../images/SwanseaCity.png';
 import { makeStyles } from '@material-ui/core/styles';
 import Avatar from '@material-ui/core/Avatar';
@@ -31,7 +31,7 @@ const Fixture = ({ fixtureData }) => {
       <div>{fixtureData.date}</div>
       <hr />
 
-      <Avatar alt='CardiffCity' src={cardif} className={classes.large} />
+      <Avatar alt='CardiffCity' src={cardiff} className={classes.large} />
 
       <h3>{fixtureData.teams[0].name}</h3>
       <h4>Formation: {fixtureData.teams[0].formation}</h4>
