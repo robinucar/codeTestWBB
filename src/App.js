@@ -2,6 +2,7 @@ import { useEffect, useState } from 'react';
 import { useSelector, useDispatch } from 'react-redux';
 import { ADD_FIXTURE } from './redux/actions/types';
 import { getFixture, getPlayer } from './helpers/apiServices';
+import Fixture from './components/Fixture';
 
 import './App.css';
 
@@ -66,32 +67,7 @@ const App = () => {
   if (load) {
     return (
       <div className='app'>
-        <div>
-          {fixture.teams[0].name} - {fixture.teams[1].name}
-        </div>
-        <div>{fixture.location}</div>
-        <div>{fixture.date}</div>
-        <div>
-          <div>
-            {fixture.teams[0].players.map((d, i) => {
-              return (
-                <div key={d.playerId}>
-                  <b>{d.playerNo}</b> {d.playerName} - {d.position}
-                </div>
-              );
-            })}
-          </div>
-          <hr />
-          <div>
-            {fixture.teams[1].players.map((d, i) => {
-              return (
-                <div key={d.playerId}>
-                  <b>{d.playerNo}</b> {d.playerName} - {d.position}
-                </div>
-              );
-            })}
-          </div>
-        </div>
+        <Fixture fixtureData={fixture} />
       </div>
     );
   } else {
