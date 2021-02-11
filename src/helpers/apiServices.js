@@ -1,7 +1,7 @@
 import axios from 'axios';
 const token =
   'eFExWCgsmCX066dKSsJVmGu2HUYATekkGFcxbgnIfjPTtQ67JZrWjDnmwS3dn93p';
-//getting fixtures data
+// fixtures data
 const getFixture = async (fixtureId) => {
   return axios
     .get(
@@ -14,7 +14,7 @@ const getFixture = async (fixtureId) => {
     .catch((err) => console.error(err));
 };
 
-//getting player data
+//layer data
 const getPlayer = async (playerId) => {
   return axios
     .get(
